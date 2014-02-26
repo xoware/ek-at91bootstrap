@@ -158,6 +158,7 @@ int main(void)
 
 #ifdef CONFIG_SCLK
 	slowclk_switch_osc32();
+#error fixme
 #endif
 
 	return JUMP_ADDR;
