@@ -224,6 +224,8 @@
  */
 #define CONFIG_SYS_ONE_WIRE_PIN		AT91C_PIN_PE(25)
 
+#define CONFIG_SYS_RESET_BUTTON         AT91C_PIN_PE(27)
+
 /* function */
 extern void hw_init(void);
 

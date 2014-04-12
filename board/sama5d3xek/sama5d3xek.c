@@ -318,6 +318,8 @@ void hw_init(void)
 	/* load one wire information */
 	one_wire_hw_init();
 
+	pio_set_gpio_input(CONFIG_SYS_RESET_BUTTON, 1);
+
 #ifdef CONFIG_USER_HW_INIT
 	hw_init_hook();
 #endif
